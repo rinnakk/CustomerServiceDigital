@@ -9334,7 +9334,7 @@
             },
             {
                 "t": "set",
-                "p": "qdrant_api_key",
+                "p": "qdrant_cluster_url",
                 "pt": "msg",
                 "to": "QDRANT_CLUSTER_URL",
                 "tot": "env"
