@@ -61,7 +61,9 @@ Customer Service Digital is an API solution tailored to provide digital customer
 Two custom solutions are currently available:
 
 - Customer service digital for Lead Automation
+  A digital customer service representative that can promote customer's products and services, answers user questions, and generate order leads.
 - Customer service digital for Services and Ticketing
+  A digital customer service representative that can promote customer's products and services, answers user questions, trigger a call-to-action, and submit support tickets.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,11 +71,11 @@ Two custom solutions are currently available:
 
 Customer service digital solutions are built with these technologies:
 
-- [![NodeRed][NodeRed]](https://nodered.org/)
-- [![Azure OpenAI][Azure OpenAI]](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
-- [![Qdrant][Qdrant]](https://qdrant.tech/)
-- [![Azure Table Storage][Azure Table Storage]](https://azure.microsoft.com/en-us/products/storage/tables)
-- [![Azure Application Insights][Azure Application Insights]](https://azure.microsoft.com/en-gb/products/monitor)
+- [NodeRed](https://nodered.org/)
+- [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
+- [Qdrant](https://qdrant.tech/)
+- [Azure Table Storage](https://azure.microsoft.com/en-us/products/storage/tables)
+- [Azure Application Insights](https://azure.microsoft.com/en-gb/products/monitor)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +127,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
