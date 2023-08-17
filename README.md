@@ -94,15 +94,18 @@ To run this program successfully, you need to have these set up:
    git clone https://github.com/rinnakk/CustomerServiceDigital.git
    ```
 2. Go to solution's directory
-3. Copy `.env.example` file to `.env` and insert the appropriate value for each key
-4. Install Node-RED globally. Below is an example of Node-RED installation with npm. To use Docker or Snap, follow these steps from [Node-RED documentation](https://nodered.org/docs/getting-started/local)
+3. Install Node-RED globally. Below is an example of Node-RED installation with npm. To use Docker or Snap, follow these steps from [Node-RED documentation](https://nodered.org/docs/getting-started/local)
    ```sh
    npm install -g --unsafe-perm node-red
+   ```
+4. Inside `.node-red` directory, copy `environment.example` file to `environment` and insert the appropriate value for each key.
+5. Inside `.node-red` directory, install external packages and nodes from `package.json`
+   ```sh
    npm install
    ```
-5. Run Node-RED app
+6. From the solutions directory, run the Node-RED app
    ```sh
-   node-red flows.json
+   node-red --settings settings.js flows.json
    ```
    For more comprehensive guide on running Node-RED locally, see [Node-RED documentation](https://nodered.org/docs/getting-started/local#command-line-usage)
 
