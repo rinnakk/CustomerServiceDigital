@@ -1,0 +1,14 @@
+{
+  "name": "csd-la-prod",
+  "description": "csd-la-prod-20230814 - csd-la-prod-20230814",
+  "private": true,
+  "version": "0.0.0-lzRj1KAJqK",
+  "dependencies": {
+    "node-red": "3.0.2",
+    "@flowforge/nr-project-nodes": "0.2.0",
+    "@flowforge/nr-file-nodes": "0.0.3",
+    "node-red-contrib-azure-application-insights-all-tracks": "0.1.0",
+    "@azure/data-tables": "*",
+    "gpt3-tokenizer": "1.1.5"
+  }
+}
