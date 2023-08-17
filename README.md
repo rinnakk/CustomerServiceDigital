@@ -7,10 +7,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/rinnakk/CustomerServiceDigital">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Customer Service Digital</h3>
 
   <p align="center">
@@ -23,8 +19,9 @@
     <a href="https://github.com/rinnakk/CustomerServiceDigital/issues">Report Bug</a>
     ·
     <a href="https://github.com/rinnakk/CustomerServiceDigital/issues">Request Feature</a>
-    .
-    <a href="https://rinna.co.jp/inquiry/">End-to-End Service</a>
+    <br />
+    <br />
+    <a href="https://rinna.co.jp/inquiry/">Contact Us for End-to-End Service</a>
   </p>
 </div>
 
@@ -71,7 +68,7 @@ Two custom solutions are currently available:
 
 Customer service digital solutions are built with these technologies:
 
-- [NodeRed](https://nodered.org/)
+- [Node-RED](https://nodered.org/)
 - [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 - [Qdrant](https://qdrant.tech/)
 - [Azure Table Storage](https://azure.microsoft.com/en-us/products/storage/tables)
@@ -98,14 +95,16 @@ To run this program successfully, you need to have these set up:
    ```
 2. Go to solution's directory
 3. Copy `.env.example` file to `.env` and insert the appropriate value for each key
-4. Install NPM packages
+4. Install Node-RED globally. Below is an example of Node-RED installation with npm. To use Docker or Snap, follow these steps from [Node-RED documentation](https://nodered.org/docs/getting-started/local)
    ```sh
+   npm install -g --unsafe-perm node-red
    npm install
    ```
-5. Run the app
+5. Run Node-RED app
    ```sh
-   npm run start
+   node-red flows.json
    ```
+   For more comprehensive guide on running Node-RED locally, see [Node-RED documentation](https://nodered.org/docs/getting-started/local#command-line-usage)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
