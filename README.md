@@ -24,7 +24,7 @@
     ·
     <a href="https://github.com/rinnakk/CustomerServiceDigital/issues">Request Feature</a>
     .
-    <a href="https://github.com/rinnakk/CustomerServiceDigital/README.md#contact">End-to-end Service</a>
+    <a href="https://rinna.co.jp/inquiry/">End-to-End Service</a>
   </p>
 </div>
 
